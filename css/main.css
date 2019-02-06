@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hidden{
+	display: none;
+}
+
+
+
+/*@FONT FACE LINKING*/
+@font-face{
+	font-family: 'Oswald';
+	src: url('../fonts/Oswald-Bold.woff2') format('woff2'),
+        url('../fonts/Oswald-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Regular.woff2') format('woff2'),
+        url('../fonts/Oswald-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Light.woff2') format('woff2'),
+        url('../fonts/Oswald-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-SemiBold.woff2') format('woff2'),
+        url('../fonts/Oswald-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Medium.woff2') format('woff2'),
+        url('../fonts/Oswald-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-ExtraLight.woff2') format('woff2'),
+        url('../fonts/Oswald-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quattrocento';
+    src: url('../fonts/Quattrocento-Bold.woff2') format('woff2'),
+        url('../fonts/Quattrocento-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Quattrocento';
+    src: url('../fonts/Quattrocento.woff2') format('woff2'),
+        url('../fonts/Quattrocento.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*END OF FONT LINKING*/
+
+/*SITE WIDE RULES*/
+
+#siteContainer{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+body{
+	font-family: 'Oswald', 'arial', 'sans-serif';
+}
+
+
+/**********************HEADER**********************/
+header{
+	height: 175px;
+	display: flex;
+	justify-content: space-around;
+}
+
+#mainLogo{
+	width: 125px;
+	height: 125px;
+}
+
+nav a{
+	text-decoration: none;
+	color: #535353;
+}
+
+#socialHead{
+	height: 25px;
+}
+
+#navHead li{
+	color: #535353;
+}
+
+#navHead ul, #socialHead{
+	display: flex;
+	justify-content: flex-end;
+}
+
+#navHead ul li{
+	font-size: 21px;
+
+}
+
+.navHeadA{
+	margin-left: 35px;
+	margin-right: 35px;
+}
+
+.navHeadA2{
+	margin-left: 35px;
+}
+
+
+#navHead ul li a:hover{
+	color: #b7964b;
+}
+
+#socialHead img:hover{
+	color: #b7964b;
+}
+
+#socialHead{
+	margin-top: 20px;
+}
+
+#navHead{
+	margin-top: 20px;
+}
+
+
+
+/**********************HERO IMAGE (HOME)**********************/
+
+#heroArea{
+	background-image: url("../images/hero_man.jpg");
+	height: 515px;
+	margin-top: 0px;
+}	
