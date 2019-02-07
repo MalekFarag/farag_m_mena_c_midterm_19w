@@ -90,7 +90,7 @@ body{
 header{
 	height: 175px;
 	display: flex;
-	justify-content: space-around;
+    justify-content: space-around;
 }
 
 #mainLogo{
@@ -103,8 +103,14 @@ nav a{
 	color: #535353;
 }
 
+
 #socialHead{
 	height: 25px;
+}
+
+#socialHead img{
+    width: 35px;
+    margin-left: 25px;
 }
 
 #navHead li{
@@ -131,7 +137,7 @@ nav a{
 }
 
 
-#navHead ul li a:hover{
+#socialNav a:hover{
 	color: #b7964b;
 }
 
@@ -153,6 +159,43 @@ nav a{
 
 #heroArea{
 	background-image: url("../images/hero_man.jpg");
-	height: 515px;
+	background-repeat: no-repeat; 
+    height: 447px;
 	margin-top: 0px;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 15px 9px #dddddd;
 }	
+
+#heroText{
+    margin-left: 65px;
+}
+
+#heroArea h1{
+    font-size: 54px;
+    font-style: italic;
+    color: #010101;
+    letter-spacing: -1px;
+}
+
+#heroArea p{
+    font-size: 21px;
+    font-family: 'Quattrocento';
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #010101;
+    margin-top: 20px;
+}
+
+#heroSlide{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 65px;
+    right: 65px;
+}
+
+#slideImg{
+    margin-left: 15px;
+}
+
