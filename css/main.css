@@ -199,3 +199,27 @@ nav a{
     margin-left: 15px;
 }
 
+
+
+
+
+
+
+
+/**********************FOOTER**********************/
+
+footer{
+    display: flex;
+    flex-direction: row;
+}
+
+footer p{
+    color: #535353;
+}
+
+
+footer h3{
+    font-style: italic;
+    font-size: 21px;
+    color: #535353;
+}
