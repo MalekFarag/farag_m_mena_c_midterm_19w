@@ -138,11 +138,11 @@ nav a{
 
 
 #socialNav a:hover{
-	color: #b7964b;
+	color: #c89e41;
 }
 
 #socialHead img:hover{
-	color: #b7964b;
+	color: #c89e41;
 }
 
 #socialHead{
@@ -164,7 +164,6 @@ nav a{
 	margin-top: 0px;
     display: flex;
     align-items: center;
-    box-shadow: 5px 15px 9px #dddddd;
 }	
 
 #heroText{
@@ -199,22 +198,78 @@ nav a{
     margin-left: 15px;
 }
 
+/**********************EVENTS (HOME)**********************/
+
+#events{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+#eventsSec h2{
+    font-size: 28px;
+    color: #535353;
+    margin-left: 45px;
+    font-style: italic;
+}
 
 
 
+.events{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    box-shadow: 0 6px 20px 0 #b6b6b6;
+}
 
+.eventsDesc{
+    margin: 15px;
+}
+
+.eventsDesc h3{
+    font-size: 18px;
+    color: #656565;
+}
+
+.eventsDesc p{
+    font-size: 12px;
+    font-family: 'Quattrocento';
+    margin-top: 10px;
+    line-height: 14px;
+    color: gray;
+}
+
+.eventsDesc a p{
+    margin-top: 20px;
+    margin-bottom: auto;
+    color: #5f5644;
+    font-family: 'Oswald';
+    letter-spacing: -1px;
+}
+
+.events a{
+    text-decoration: none;
+}
 
 
 
 /**********************FOOTER**********************/
 
+/*dev reminder: use JS for dontate button*/
 footer{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    border-top: solid 1px #c89e41;
+    margin-top: 75px;
 }
 
 footer p{
-    color: #535353;
+    color: #717171;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 20px;
+    font-weight: lighter;
 }
 
 
@@ -222,4 +277,48 @@ footer h3{
     font-style: italic;
     font-size: 21px;
     color: #535353;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
+
+footer a{
+    color: #717171;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: lighter;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #c89e41;
+}
+
+#donateFoot{
+    width: 115px; 
+}
+
+#donateBut{
+    width: 115px;
+    height: 45px;
+    display: flex;
+    border: solid 1px #c89e41;
+    border-radius: 10px;
+    background-color: #c89e41;
+}
+
+#donateBut p{
+    font-size: 17px;
+    padding-top: 11px;
+    color: white;
+}
+
+#donateFoot h3{
+    text-align: center;
+}
+
+#donateBut img{
+    width: 50px;
+    padding: 3px;
+}
+
