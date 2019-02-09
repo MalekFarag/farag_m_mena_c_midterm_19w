@@ -3,7 +3,9 @@
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 612 502.6" style="enable-background:new 0 0 612 502.6;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#535353;}
+	.st0{fill:#535353;
+	transition: all .2s ease}
+	.st0:hover{fill:#c89e41;}
 </style>
 <g>
 	<g>

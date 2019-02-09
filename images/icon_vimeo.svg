@@ -3,7 +3,9 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 434 375" style="enable-background:new 0 0 434 375;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#535353;}
+	.st0{fill:#535353;
+	transition: all .2s ease}
+	.st0:hover{fill:#c89e41;}
 </style>
 <path class="st0" d="M416,22.3C405.5,11,390.3,4.9,370.8,4.4c-55-1.8-93.9,27.5-115.7,87c-1.1,3.1-0.4,6.6,1.8,9
 	c2.2,2.4,5.6,3.4,8.8,2.5c6.2-1.7,12.4-2.6,18.4-2.6c8,0,18.7,1.5,24,8.5c4.1,5.4,4.6,13.5,1.6,24c-2.5,8.9-15.5,32.7-31.5,57.9

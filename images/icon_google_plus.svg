@@ -3,9 +3,11 @@
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 327" style="enable-background:new 0 0 512 327;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#535353;}
+	.st0{fill:#535353;
+	transition: all .2s ease}
+	.st0:hover{fill:#c89e41;}
 </style>
-<g>
+<g class='all'>
 	<g>
 		<polygon class="st0" points="448,135 448,71 416,71 416,135 352,135 352,167 416,167 416,231 448,231 448,167 512,167 512,135 		
 			"/>
