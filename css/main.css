@@ -77,12 +77,30 @@
 /*SITE WIDE RULES*/
 
 #siteContainer{
-	width: 1024px;
+	width: 900px;
 	margin: 0 auto;
 }
 
 body{
 	font-family: 'Oswald', 'arial', 'sans-serif';
+}
+
+
+h1{
+    font-size: 54px;
+    font-style: italic;
+}
+
+h3{
+    font-style: italic;
+    font-size: 21px;
+    color: #535353;
+}
+
+p{
+    font-family: 'Quattrocento';
+    font-size: 18px;
+    line-height: 26px;
 }
 
 
@@ -265,6 +283,95 @@ nav a{
 
 
 
+/*******************ABOUT***********************/
+
+#aboutTRAA{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aboutTRAA{
+    display: flex;
+}
+
+.aboutTRAA img{
+    margin: 10px;
+}
+
+.aboutTRAA #imgWrap{
+    flex-wrap: wrap;
+    width: 600px;
+    margin-left: auto;
+}
+
+#aboutDesc1{
+    width: 370px;
+}
+
+#aboutDesc1 p{
+    margin: 10px;
+    margin-top: 20px;
+}
+
+#aboutDesc2{
+    margin: 10px;
+}
+
+
+
+
+
+
+#teamList{
+    display: flex;
+    height: 215px;
+}
+
+#sponsors, #executives{
+    margin-top: 30px;
+}
+
+#executives{
+    width: 350px;
+}
+
+#sponsors{
+    width: 275px;
+    margin-right: 50px;
+}
+
+#sponsors img{
+    margin: 10px;
+}
+
+#sponsors #center{
+    margin-left: 105px;
+}
+
+#executives h6{
+    font-size: 22px;
+    font-style: italic;
+    color: #333;
+}
+
+#executives #eList div div{
+    margin-top: 10px;
+}
+
+#eList{
+    display: flex;
+    flex-direction: row;
+}
+
+#eList div{
+    margin-right: 20px;
+}
+
+#team{
+    margin-top: 40px;
+}
+
 /**********************FOOTER**********************/
 
 /*dev reminder: use JS for dontate button*/
@@ -278,6 +385,7 @@ footer{
 
 footer p{
     color: #717171;
+    font-family: 'Oswald';
     font-size: 14px;
     font-style: italic;
     line-height: 20px;
