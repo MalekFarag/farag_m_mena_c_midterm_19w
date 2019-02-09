@@ -101,6 +101,7 @@ header{
 nav a{
 	text-decoration: none;
 	color: #535353;
+    transition: all .3s ease;
 }
 
 
@@ -213,17 +214,28 @@ nav a{
     font-style: italic;
 }
 
-
+#eventMove{
+    position: relative;
+    top: 14px;
+}
 
 .events{
     display: flex;
     flex-direction: column;
     width: 250px;
     box-shadow: 0 6px 20px 0 #b6b6b6;
+    transition: all .3s ease;
 }
+
+.events:hover{
+    flex-grow: .05;
+    box-shadow: 0 6px 20px 0 #8a8a8a;
+}
+
 
 .eventsDesc{
     margin: 15px;
+    width: 225px;
 }
 
 .eventsDesc h3{
