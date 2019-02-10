@@ -109,6 +109,7 @@ header{
 	height: 175px;
 	display: flex;
     justify-content: space-around;
+    margin-top: 10px;
 }
 
 #mainLogo{
@@ -495,6 +496,45 @@ nav a{
 #memberInfo #svgPin{
     width: 50px;
 }
+
+/*******************PROJECT INFO****************/
+#projects{
+    display: flex;
+    flex-direction: column;
+}
+
+#projectInfo{
+    display: flex;
+}
+
+#projectInfo h2{
+    font-size: 25px;
+    color: #3e3e3e;
+    margin-top: 25px;
+}
+
+#projectInfo h6{
+    font-size: 20px;
+    color: #3e3e3e;
+    margin-top: 5px;
+}
+
+#projectInfo p{
+    margin-top: 25px;
+    width: 400px;
+}
+
+#projectImg{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 20px;
+}
+
+#projectInfo2{
+    margin-top: 30px;
+}
+
+
 /**********************FOOTER**********************/
 
 /*dev reminder: use JS for dontate button*/
@@ -504,6 +544,7 @@ footer{
     justify-content: space-between;
     border-top: solid 1px #c89e41;
     margin-top: 75px;
+    margin-bottom: 40px;
 }
 
 footer p{
