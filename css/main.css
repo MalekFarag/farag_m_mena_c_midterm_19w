@@ -372,6 +372,129 @@ nav a{
     margin-top: 40px;
 }
 
+
+/*******************FORM**********************/
+#formPageContainer{
+    display: flex;
+}
+
+
+
+#member span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#member{
+    width: 550px;
+}
+
+#member{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: solid 1px #c89e41;
+}
+
+#member p{
+    margin-top: 20px;
+}
+
+#member form{
+    margin-top: 30px;
+}
+
+#member .formStack{
+    display: flex;
+}
+
+#member .formStack input{
+    margin-right: 29px;
+}
+
+
+#member input{
+    height: 50px; 
+    border: solid 1px #717171;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 3px 20px 0 #b6b6b6;
+}
+
+#member .inputS{
+    width: 235px;
+}
+
+#member .inputL{
+    width: 500px;
+}
+
+#member label{
+    display: block;
+    margin-left: 10px;
+    font-size: 19px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 5px;
+    color: #717171;
+}
+
+#member button{
+    width: 115px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: white;
+    border: solid 1px #c89e41;
+    margin-top: 20px;
+    position: relative;
+    left: 360px;
+    font-family: 'Oswald';
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 16px;
+    color: #717171;
+    text-align: center;
+    transition: all .2s ease;
+}
+
+#member button:hover{
+    background-color: #c89e41;
+    border: solid 1px #c89e41;
+    color: white;
+    box-shadow: 0 3px 20px 0 #b6b6b6;
+}
+
+#memberInfo{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+#memberInfo p{
+    font-size: 26px;
+    color: #333;
+}
+
+#memberInfo #number{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#memberInfo img{
+    padding: 70px;
+}
+
+#memberInfo div{
+    margin-top: 50px;
+}
+
+#memberInfo #svgPhone{
+    width: 40px;
+}
+
+#memberInfo #svgPin{
+    width: 50px;
+}
 /**********************FOOTER**********************/
 
 /*dev reminder: use JS for dontate button*/
