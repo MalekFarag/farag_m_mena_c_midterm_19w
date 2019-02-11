@@ -430,11 +430,11 @@ nav a{
 }
 
 #member .inputS{
-    width: 235px;
+    width: 225px;
 }
 
 #member .inputL{
-    width: 500px;
+    width: 490px;
 }
 
 #member label{
@@ -505,6 +505,12 @@ nav a{
     width: 50px;
 }
 
+#formPageContainer input{
+    color: #333;
+    font-size:18px;
+    padding-left: 10px;
+}
+
 /*******************CURRENT PROJECT INFO (TROUT)****************/
 #projects{
     display: flex;
@@ -540,6 +546,17 @@ nav a{
 
 #projectInfo2{
     margin-top: 30px;
+}
+
+#dataList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.data{
+    width: 34%;
+    height: 34%;
 }
 
 /*************************MERCH*********************/
