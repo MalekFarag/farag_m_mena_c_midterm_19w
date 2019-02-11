@@ -243,12 +243,20 @@ nav a{
     flex-direction: column;
     width: 250px;
     box-shadow: 0 6px 20px 0 #b6b6b6;
-    transition: all .3s ease;
+    transition: all .2s ease;
 }
 
 .events:hover{
     flex-grow: .05;
     box-shadow: 0 6px 20px 0 #8a8a8a;
+}
+
+.events a p{
+    transition: all .2s ease;
+}
+
+.events a p:hover{
+    color: #c89e41;
 }
 
 
@@ -497,7 +505,7 @@ nav a{
     width: 50px;
 }
 
-/*******************PROJECT INFO****************/
+/*******************CURRENT PROJECT INFO (TROUT)****************/
 #projects{
     display: flex;
     flex-direction: column;
@@ -533,6 +541,61 @@ nav a{
 #projectInfo2{
     margin-top: 30px;
 }
+
+/*************************MERCH*********************/
+
+#merch{
+    display: flex;
+    flex-direction: column;
+}
+
+#merchDesc{
+    width: 300px;
+}
+
+#merchRow1, #merchRow2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#merchRow2{
+    margin-top: 70px;
+}
+
+.merchSec{
+    display: flex;
+    flex-direction: row;
+}
+
+#merch1{
+    margin-right: 72px;
+}
+
+#merch .price{
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all .2s ease;
+    margin-top: 10px; 
+}
+
+#merch h3{
+    font-weight: lighter;
+}
+
+#merch .events{
+    width: 241px;
+    flex-grow: 0;
+}
+
+#merchRow2{
+    margin-left: 30px;
+}
+
+
+
+
 
 
 /**********************FOOTER**********************/
