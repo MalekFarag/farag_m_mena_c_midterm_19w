@@ -594,9 +594,41 @@ nav a{
 }
 
 
+/***********************PAST PROJECTS*****************/
+#pastHead{
+    display: flex;
+    justify-content: space-between;
+}
 
+#pastDesc{
+    width: 350px;
+}
 
+#pastDesc h3{
+    font-style: normal;
+    margin-top: 20px;
+    font-size: 26px;
+}
 
+#pastDesc h6{
+    font-style: italic;
+    color: #535353;
+    margin-top: 5px;
+}
+
+#pastDesc p{
+    margin-top: 10px;
+}
+
+.list{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list .events p{
+    margin-top: 5px;
+}
 
 /**********************FOOTER**********************/
 
@@ -652,6 +684,11 @@ footer a:hover{
     border: solid 1px #c89e41;
     border-radius: 10px;
     background-color: #c89e41;
+    transition: all .2s ease;
+}
+
+#donateBut:hover{
+    box-shadow: 0 3px 20px 0 #b6b6b6;
 }
 
 #donateBut p{
