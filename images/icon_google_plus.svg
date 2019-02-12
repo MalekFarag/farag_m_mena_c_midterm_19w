@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 327" style="enable-background:new 0 0 512 327;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#535353;
+	transition: all .2s ease}
+	.st0:hover{fill:#c89e41;}
+</style>
+<g class='all'>
+	<g>
+		<polygon class="st0" points="448,135 448,71 416,71 416,135 352,135 352,167 416,167 416,231 448,231 448,167 512,167 512,135 		
+			"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path class="st0" d="M160,135v64h90.5c-13.2,37.2-48.8,64-90.5,64c-52.9,0-96-43.1-96-96s43.1-96,96-96c22.9,0,45,8.2,62.2,23.2
+			l42-48.3C235.4,20.8,198.4,7,160,7C71.8,7,0,78.8,0,167s71.8,160,160,160s160-71.8,160-160v-32H160z"/>
+	</g>
+</g>
+</svg>
